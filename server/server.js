@@ -5,7 +5,7 @@ const cors       = require('cors');
 const authRoutes = require('./routes/authRoutes');
 const authMiddleware = require('./middleware/authMiddleware');
 const Expense    = require('./models/Expense');
-const categorizeExpense = require('./utils/categorizeExpense');
+const categorizeExpense = require('./Utils/categorizeExpense');
 
 const app = express();
 app.use(cors());
